@@ -4,4 +4,4 @@ from .models import Person
 
 @admin.register(Person)
 class PersonAdmin(ImportExportModelAdmin):
-    list_display = ('name', 'email', 'location')
+    list_display = ('userId', 'id', 'title', 'body')
